@@ -1,1 +1,2 @@
-# RecipeApp (Command Line Version)
+# RecipeApp
+(Command Line Version)
