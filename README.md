@@ -1,7 +1,11 @@
 # RecipeApp (Command Line Version)
+This is the command line version of a recipe app, which acts as a precursor to its web app counterpart.
+
+## Context
+This project focuses on Python fundamentals, data structures, and object-oriented programming. The project also utilizes a database with MySQL and builds the foundation for interacting with a Django framework, for a later project. 
 
 ## User Goals
-Users should be able to create and modify recipes with ingredients, cooking time, and a difficulty parameter that would automatically be calculated by the app. Users should also be able to search for recipes by their ingredients.
+Users will be able to create and modify recipes with ingredients, add cooking times, search for a recipe by ingredient, and delete a recipe. A difficulty parameter will also be part of the app that is automatically calculated within the app.
 
 ## Features
 - **Create and manage the user's recipes on a locally hosted MySQL database**
@@ -14,3 +18,21 @@ Users should be able to create and modify recipes with ingredients, cooking time
 - **App must connect to a MySQL database hosted locally on system.**
 - **App must provide an easy to use interface, supported by simple forms of input and concise instructions that any user can follow.**
 - **App should work on Python3.6+ installations.**
+
+## Installation
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd recipe_app`
+3. Install required packages: `pip install -r requirements.txt`
+4. Configure the MySQL database:
+   - Create a database
+   - Create 'Recipes' table
+
+## Usage
+1. Run the application: 'python recipe_app'
+2. Follow on-screen prompts to:
+   - Add a new recipe
+   - Search for recipe by ingredient
+   - View, update, or delete recipe
+
+
+
